@@ -31,7 +31,7 @@ const TAB_DATA = [
         content: (
             <ul className='list-disc pl-2'>
                 <li>MisGatos - WebApp para seguimiento de gastos<br /><span className='text-sm text-gray-400'>Proyecto para empresa privada (2025) | Stack: NEXT.js, Angular, Tailwind CSS, Firebase</span></li>
-                <li>QA funcional freelance<br /><span className='text-sm text-gray-400'>Trabajo de crowdtesting para distintas plataformas (2023 - Actualidad)</span></li>
+                <li>QA Funcional Freelance<br /><span className='text-sm text-gray-400'>Trabajo de crowdtesting para distintas plataformas (2023 - Actualidad)</span></li>
             </ul>
         )
     },

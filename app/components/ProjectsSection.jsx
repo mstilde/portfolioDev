@@ -11,7 +11,8 @@ const projectsData = [
         description: "App para el seguimiento de gastos desarrollado a encargo para una empresa privada. Basado Next.js, Angular, Tailwind CSS y Firebase.",
         imgUrl: "/images/proyecto-finance-tracker.png",
         tag: ["All", "Web"],
-        gitUrl: "https://misgastos.vercel.app/",
+        gitUrl: "",
+        previewUrl: "https://misgastos.vercel.app/"
     },
     {
         id: 2,
@@ -19,7 +20,8 @@ const projectsData = [
         description: "Portfolio con proyectos personales de QA, con sus respectivos repositorios, explicaciones y gráficos. (En ingles).",
         imgUrl: "/images/proyecto-portfolioQA.png",
         tag: ["All", "QA"],
-        gitUrl: "https://mstilde.github.io/portfolio/",
+        gitUrl: "https://github.com/mstilde/portfolio",
+        previewUrl: "https://mstilde.github.io/portfolio/"
     },
 ]
 
@@ -72,6 +74,7 @@ const ProjectsSection = () => {
                         description={project.description}
                         imgUrl={project.imgUrl}
                         gitUrl={project.gitUrl}
+                        previewUrl={project.previewUrl}
                     />
                 </motion.li>
             ))}

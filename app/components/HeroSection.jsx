@@ -23,6 +23,8 @@ const HeroSection = () => {
                                 1500,
                                 'QA Tester',
                                 1500,
+                                'Android Developer',
+                                1500,
                                 ]}
                             wrapper="span"
                             speed={50}

@@ -14,10 +14,10 @@ const TAB_DATA = [
                     <br /><span className='text-sm text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary'>Selenium | Postman | Jmeter | Jenkins | Docker</span>
                 </li>
                 <li>Lenguajes
-                <br /><span className='text-sm text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary'>Java | JavaScript | Pascal | SQL | Kotlin</span>
+                    <br /><span className='text-sm text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary'>Java | JavaScript | Pascal | SQL | Kotlin</span>
                 </li>
                 <li>Herramientas de desarrollo
-                    <br /><span className='text-sm text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary'>React | Next.js | Spring Boot | Angular | Tailwind CSS</span>
+                    <br /><span className='text-sm text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary'>React | Next.js | Spring Boot | Angular | Tailwind CSS | Android Studio</span>
                 </li>
                 <li>Base de datos y plataformas
                     <br /><span className='text-sm text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary'>MySQL | Firebase</span>

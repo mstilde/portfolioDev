@@ -20,8 +20,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
                   </Link>
               )
             }
-            {
-              previewUrl === "" ? null : (
+            {previewUrl === "" ? null : (
                 <Link
                   href={previewUrl}
                   target="_blank"

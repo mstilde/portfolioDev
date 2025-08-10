@@ -20,13 +20,17 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
                   </Link>
               )
             }
-            <Link
-            href={previewUrl}
-            target="_blank"
-            className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
-          >
-                <EyeIcon className='w-10 h-10 text-[#ADB7BE] absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:white'/>
-            </Link>
+            {
+              previewUrl === "" ? null : (
+                <Link
+                  href={previewUrl}
+                  target="_blank"
+                  className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+                >
+                      <EyeIcon className='w-10 h-10 text-[#ADB7BE] absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:white'/>
+                  </Link>
+              )
+            }
         </div>
     </div>
     <div className='text-white rounded-b-xl mt-3 bg-[#181818] py-6 px-4'>

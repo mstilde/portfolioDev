@@ -27,7 +27,7 @@ const projectsData = [
         id: 3,
         title: "Mini Batalla Naval",
         description: "Pequeño juego de batalla naval desarrollado en Android usando Kotlin.",
-        imgUrl: "/images/proyecto-portfolioQA.png",
+        imgUrl: "/images/proyecto-portfolioBatallaNaval.png",
         tag: ["All", "Mobile"],
         gitUrl: "https://github.com/mstilde/BatallaNavalAndroid",
         previewUrl: ""
